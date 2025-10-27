@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fórmula 1</title>
-  <link rel="icon" type="image/webp" href="Imagen/logo.webp">
+  <title>Formula 1</title>
+  <link rel="icon" type="Imagen/logo.png" href="Imagen/logo.png">
 </head>
 
 <body bgcolor="#d9eaf7" text="#000000">
@@ -26,6 +26,7 @@
         <td><a href="#inicio"><font color="white"><b>Inicio</b></font></a></td>
         <td><a href="#acerca"><font color="white"><b>Acerca de</b></font></a></td>
         <td><a href="#producto"><font color="white"><b>Producto</b></font></a></td>
+        <td><a href="#formulario"><font color="white"><b>Formulario</b></font></a></td>
         <td><a href="#contacto"><font color="white"><b>Contacto</b></font></a></td>
       </tr>
     </table>
@@ -119,6 +120,35 @@
         </table>
         </center>
         <br>
+        <center>
+          <form>
+            <fieldset style="width:80%; border:2px solid #3399ff; padding:15px; background-color:#f0f8ff;">
+              <legend><font face="Arial" size="4" color="#003366"><b>¿Cuál es tu escudería favorita de Fórmula 1?</b></font></legend>
+
+              <label>
+                <input type="radio" name="escuderia" value="Red Bull Racing">
+                <img src="Imagen/redbull.jpg" alt="Red Bull Racing" width="20"> Red Bull Racing
+              </label><br>
+
+              <label>
+                <input type="radio" name="escuderia" value="Mercedes-AMG">
+                <img src="Imagen/mercedes.webp" alt="Mercedes-AMG" width="20"> Mercedes-AMG Petronas
+              </label><br>
+
+              <label>
+                <input type="radio" name="escuderia" value="Ferrari">
+                <img src="Imagen/ferrari.webp" alt="Ferrari" width="20"> Scuderia Ferrari
+              </label><br>
+
+              <label>
+                <input type="radio" name="escuderia" value="McLaren">
+                <img src="Imagen/mclaren.webp" alt="McLaren" width="20"> McLaren F1 Team
+              </label><br><br>
+
+              <input type="submit" value="Escoger" style="background-color:#003366; color:white; padding:8px 16px; border:none; cursor:pointer;">
+            </fieldset>
+          </form>
+        </center>
         <ul>
           <li><a href="#historia">Historia de la Fórmula 1</a></li>
           <li><a href="#equipos">Escuderías destacadas</a></li>
@@ -132,6 +162,30 @@
       </td>
     </tr>
   </table>
+
+ <!-- SECCIÓN FORMULARIO -->
+  <br>
+  <table align="center" width="80%" bgcolor="#e6f2ff" border="2" bordercolor="#99ccff" cellpadding="15">
+  <tr>
+      <td align="center">
+        <font face="Arial" size="5" color="#003366"><b>FORMULARIO</b></font><br><br>
+        <font face="Arial" size="4">
+          <form>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="lname" name="lname">
+            <label for="fnac">Fecha de nacimiento:</label><br>
+            <input type="text" id="fnac" name="fnac">
+            <label for="efav">Escuderia Favorita:</label><br>
+            <input type="text" id="efav" name="efav">
+            <label for="pide">Piloto Ideal:</label><br>
+            <input type="text" id="pide" name="pide">
+            <label for="vpref">Vehiculo Preferido:</label><br>
+            <input type="text" id="vpref" name="vpref">
+          </form>
+        </font>
+</table>
 
   <!-- SECCIÓN CONTACTO -->
   <br>
